@@ -38,8 +38,6 @@ bool check()
 
 		if (top[x] != cnt)
 		{
-			cout << "wrong!\n";
-			cout << "top[" << x << "] != " << cnt << endl;
 			return false;
 		}
 	}
@@ -64,8 +62,6 @@ bool check()
 
 		if (bot[x] != cnt)
 		{
-			cout << "wrong!\n";
-			cout << "bot[" << x << "] != " << cnt << endl;
 			return false;
 		}
 	}
@@ -90,8 +86,6 @@ bool check()
 
 		if (lft[y] != cnt)
 		{
-			cout << "wrong!\n";
-			cout << "lft[" << y << "] != " << cnt << endl;
 			return false;
 		}
 	}
@@ -116,8 +110,6 @@ bool check()
 
 		if (rgt[y] != cnt)
 		{
-			cout << "wrong!\n";
-			cout << "rgt[" << y << "] != " << cnt << endl;
 			return false;
 		}
 	}
@@ -140,8 +132,6 @@ void fill (int y, int x, int left)
 {
 	int cache[5];
 	int t;
-
-	cout << "fill (" << x << ", " << y << ", " << left << ")\n";
 
 	if (left == 0)
 	{
